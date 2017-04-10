@@ -1,0 +1,16 @@
+body {
+	font-family: 'Arvo', serif;
+}
+.main-text__h1 {
+	padding-top: 25px;
+	padding-bottom: 110px;
+	color: #3b3f6a;
+}
+.infoblock__h3 {
+	color: #3b3f6a;
+
+}
+.infoblock__p {
+	color: #686c8b;
+	font-size: 20px;
+}

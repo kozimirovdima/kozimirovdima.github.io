@@ -1,0 +1,97 @@
+.section-header {
+  margin-bottom: 5%;
+}
+.section-header h2 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.section-header h2 span {
+  color: #f64825;
+}
+.section-header p {
+  font-size: 16px;
+}
+/* Section tomi, lara и тд */
+.process-box {
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+}
+.process-box i.fa {
+  font-size: 50px;
+}
+.process-box h4 {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.process-box p {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+.process-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -40%;
+  bottom: -30px;
+  border: none;
+  color: #706b73;
+  width: 80%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+}
+.btn-plus {
+  width: 16px;
+  height: 2px;
+  background-color: #706b73;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 5px;
+}
+.btn-plus:before {
+  width: 16px;
+  height: 2px;
+  background-color: #706b73;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  -webkit-transform: rotate(90deg) translateY(8px);
+  -ms-transform: rotate(90deg) translateY(8px);
+  -o-transform: rotate(90deg) translateY(8px);
+  transform: rotate(90deg) translateY(8px);
+}
+.box-tomi {
+  background-color: #4eb2f7;
+}
+.box-koimona {
+  background-color: #c049f8;
+}
+.box-koire {
+  background-color: #817eff;
+}
+.box-lara {
+  background-color: #f74770;
+}
+i.fa-camera-retro {
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}

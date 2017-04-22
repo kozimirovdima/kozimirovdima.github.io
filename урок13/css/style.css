@@ -1,0 +1,88 @@
+.body {
+  font-family: '../fonts/Panton.otf';
+}
+.header-text {
+  font-family: '../fonts/Panton ExtraBold.otf';
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-phone {
+  font-family: '../fonts/Panton.otf';
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-phone span {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 3px 17px;
+  font-size: 20px;
+}
+.header-phone a {
+  text-decoration: none;
+  color: black;
+}
+.header-nav {
+  height: 92px;
+  line-height: 92px;
+  background-color: #292d30;
+}
+.header-nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: #aeaeae;
+  font-size: 17px;
+  padding: 0px 3px;
+}
+.header-box {
+  background: url(../img/Фон.png) no-repeat center center;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  height: 100%;
+}
+.header-box h1 {
+  background: url(../img/BeamLightLogoWhite.png) no-repeat center center;
+  padding-bottom: 15%;
+  font-size: 0;
+}
+.header-box h2 {
+  font-family: '../fonts/Panton Black.otf';
+  font-weight: 700;
+  font-size: 35px;
+}
+.header-box p {
+  font-family: '../fonts/Panton.otf';
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 45px;
+}
+.header-box span {
+  background-color: #059feb;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 1px solid #059feb;
+}
+.header-box img {
+  background-size: ;
+  padding-bottom: 35px;
+}
+.preim {
+  background-color: white;
+}
+.preim h1 {
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+  font-family: '../fonts/Panton ExtraBold.otf';
+  font-weight: 800;
+}
+.preim span {
+  font-family: '../fonts/Panton SemiBold.otf';
+}
+.preim-content {
+  padding-top: 25px;
+}

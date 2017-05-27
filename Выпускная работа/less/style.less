@@ -1,0 +1,282 @@
+@orange: #fe5c2e;
+
+body {
+	background-image: url(../img/fon1.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: '../fonts/MuseoSansRegular.ttf';
+}
+.phone {
+	font-weight: 900;
+	font-size: 20px;
+}
+.header{
+	&-spisok{
+		padding-top: 4px;
+	}
+	&-soc {
+		text-align: right;
+	}
+	&-top {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	&-fon{
+		background: url(../img/fon2.png) no-repeat center center;
+		background-size: cover;
+	}
+	&-spisok1 {
+		display: inline-block;
+		text-decoration: none;
+		padding: 15px;
+		font-weight: 300;
+		color: grey;
+		padding-top: 45px;
+		&:hover{
+			color: black;
+			border-bottom: 2px solid @orange;
+			padding-bottom: 10px;
+		}
+	}
+	&-p{
+		font-weight: 100;
+		font-size: 17px;
+	}
+	&-otstup {
+		margin-top: 95px;
+	}
+	&-span-bold {
+		font-weight: 700;
+	}
+	&-span-otstup {
+		margin-top: 30px;
+	}
+	&-opit{
+		padding-top: 30px;
+		&:hover {
+			background-image: url(../img/header-icon/hover.png);
+			background-size: cover;
+		}
+	}
+}
+.fa-search {
+	padding-left: 180px;
+}
+h1 {
+	margin-top: 55px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.zakazat {
+	background-color: @orange;
+	border-radius: 10px;
+	height: 60px;
+	line-height: 60px;
+	width: 270px;
+	margin-top: 20px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	&-span {
+		color: @orange;
+		padding-left: 5%;
+	}
+}
+.icon{
+	height: 30px;
+	width: 35px;
+	&-span-otstup{
+		padding: 25px 25px;
+	}
+}
+.besplatno {
+	color: @orange;
+	text-decoration: underline;
+	font-size: 22px;
+}
+.resheniya{
+	&-p{
+		font-weight: 100;
+		margin-bottom: 40px;
+		font-size: 18px;
+	}
+}
+
+
+.prodagi>span{
+	display: inline-block;
+	padding: 10px 0px;
+	padding-left: 20px;
+	margin-bottom: 20px;	
+	line-height: 14pt;
+	
+}
+.prodagi>img{
+	padding-top: 20px;
+	padding-right: 30px;
+}
+.prodagi{
+	width: 370px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	background-color: #fff;
+	background-size: auto;
+	&-span{
+		font-weight: 700;
+		font-size: 18pt;
+		margin-top: 20px;
+	}
+	&-zadacha {
+			
+	}
+	&-razvernut {
+		color: @orange;
+		font-weight: 100;
+	}
+}
+.btn {
+	padding: 16px;	
+	margin-right: 14px;
+	text-decoration: none;
+	&:hover{
+		color: white;
+		background-color: @orange;
+		cursor: pointer;
+	}
+	&.active{
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+}
+.hidden {
+  display: none
+}
+.erp-p {
+	font-size: 18px;
+	font-weight: 700;
+	padding: 30px;
+	&1{
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
+.sistemi {
+	margin: 5px;
+}
+.vigodi>h4{
+	font-weight: 700;
+	margin: 25px 0;	
+}
+.vigodi {
+	&-span{
+		font-weight: 400;
+		
+	}
+	&-img{
+		display: block;
+		float: left;
+		padding: 24px;
+		&-2{
+			margin: 25px 0;
+			text-align: left;
+		}
+	}
+	&-block{
+		margin-top: 30px;
+	}
+}
+.feedback>p{
+	font-size: 18px;
+	font-weight: 100;
+}
+.feedback{
+	&-img{
+	height: 60px;
+	padding: 15px 0;
+	margin: 15px 10px;
+	}
+	&-block {
+		height: 200px;
+		margin-top: 25px;
+		&:hover{
+			background-color: #fff;
+		}
+	}
+}
+.feedback>h4{
+	text-decoration: underline;
+	color: @orange;	
+	margin: 55px 0px;
+	margin-bottom: 75px;
+}
+.etapi{	
+	&-h4{
+		font-weight: 700;
+	}
+	&-4etap{
+		background-color: #fff;
+		height: 300px;
+	}
+	&-step{
+		margin: 0;
+		padding: 15px;
+		background-color: #fff;
+		height: 150px;
+	}
+}
+.etapi-step>h4 {
+	font-size: 18px;
+	color: grey;
+	font-weight: 700;
+}
+.etapi-step>span{
+	color: grey;
+}
+.predlogenie{
+	&-p{
+	font-size: 12px;
+	font-weight: 100;
+	text-decoration: underline;
+	color: grey;	
+	}
+	&-fon{
+		background: url(../img/predlogenie/fon.png) no-repeat center center;
+		background-size: cover;
+		background-color: #fff;
+		height: 286px;
+	}
+	&-img{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	&-button {
+		position: relative;
+		top: 120px;
+		left: -52%;
+	}
+	&-span {
+		left: -55%;
+	}
+}
+.footer{
+	padding: 50px 0px;
+	&-span{
+	font-size: 16px;
+	font-weight: 100;
+	color: grey;
+}
+&-p{
+	font-size: 16px;
+	font-weight: 100;
+	color: grey;
+}
+&-phone {
+	text-decoration: underline;
+	color: black;
+	font-weight: 900;
+	font-size: 20px;
+}
+}

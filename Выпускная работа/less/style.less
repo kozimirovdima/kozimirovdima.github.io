@@ -1,17 +1,35 @@
 @orange: #fe5c2e;
 
+
+@font-face{
+	font-family: Museo;
+	src: url(../fonts/MuseoSansRegular.ttf);
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
 body {
 	background-image: url(../img/fon1.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	font-family: '../fonts/MuseoSansRegular.ttf';
+	font-family: 'Museo';
 }
 .phone {
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 17px;
 }
 .header{
+	&-ssilka{
+		text-decoration: none;
+		color: grey;
+		&:hover{
+			color:grey;
+			text-decoration: none;
+		}
+	}
 	&-spisok{
 		padding-top: 4px;
 	}
@@ -264,7 +282,7 @@ h1 {
 .footer{
 	padding: 50px 0px;
 	&-span{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 100;
 	color: grey;
 }
@@ -277,6 +295,6 @@ h1 {
 	text-decoration: underline;
 	color: black;
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 17px;
 }
 }

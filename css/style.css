@@ -35,6 +35,7 @@ header {
   height: 50px;
   border-radius: 10px;
   margin-top: 35px;
+  border: none;
 }
 .header-video {
   background-image: url(../img/header/video.png);
@@ -190,4 +191,44 @@ h1 {
 .img-responsive {
   height: 400px;
   margin-top: 25px;
+}
+#design_tips {
+  background-color: #2c2c2c;
+}
+.design-h1 {
+  padding: 25px 0;
+  font-size: 42px;
+  color: white;
+}
+.design-p {
+  color: white;
+  text-align: center;
+}
+.design-input {
+  margin-top: 30px;
+  width: 520px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  margin-left: 30%;
+  padding: 10px;
+}
+.design-button {
+  width: 210px;
+  height: 55px;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #ff2d2d;
+  margin-bottom: 50px;
+}
+.design-a {
+  text-decoration: none;
+}
+.design-a:hover {
+  text-decoration: none;
+}
+.design-a:active {
+  text-decoration: none;
 }

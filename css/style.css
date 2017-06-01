@@ -4,6 +4,14 @@ body {
 header {
   background-image: url(../img/header/1.png);
 }
+.header-a {
+  text-decoration: none;
+  color: white;
+}
+.header-a:hover {
+  text-decoration: none;
+  color: white;
+}
 .header-ul {
   background-color: #313030;
   width: 100%;
@@ -39,7 +47,7 @@ h1 {
   font-size: 55px;
   letter-spacing: 1.5px;
 }
-ul > li {
+.header-li {
   display: inline-block;
   text-decoration: none;
   width: 90px;
@@ -47,7 +55,7 @@ ul > li {
   line-height: 90px;
   font-weight: 700;
 }
-ul > li:hover {
+.header-li:hover {
   background-color: #ff2d2d;
 }
 .our-p {
@@ -96,5 +104,90 @@ ul > li:hover {
 .feature-p {
   font-size: 16px;
   padding-bottom: 20px;
+}
+.feature-border {
   border-bottom: 2px solid #ff2d2d;
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.feature-ul {
+  margin: 30px auto;
+}
+.feature-li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 0 10px;
+}
+.feature-a {
+  text-decoration: none;
+  color: #797979;
+}
+.feature-a:hover {
+  color: #ff2d2d;
+  text-decoration: none;
+}
+.feature-img {
+  display: inline-block;
+  height: 290px;
+  width: 290px;
+  padding-right: 7px;
+  padding-top: 15px;
+}
+.meet-h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.meet-p1 {
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 2px solid #ff2d2d;
+  width: 350px;
+  padding-bottom: 25px;
+}
+.mark-main {
+  height: 460px;
+  width: 320px;
+  margin-top: 25px;
+}
+.mark-h4 {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.mark-p {
+  font-weight: 500;
+}
+.mark-li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 25px;
+  padding-top: 40px;
+  padding-left: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 16px;
+}
+.mark-img {
+  width: 160px;
+  padding-top: 30px;
+  margin-top: 50px;
+  height: 200px;
+}
+.mark-a {
+  text-decoration: none;
+  color: #696969;
+}
+.mark-a:hover {
+  color: #696969;
+  text-decoration: none;
+}
+.mark-ul {
+  margin: 0;
+  padding: 0;
+}
+.img-responsive {
+  height: 400px;
+  margin-top: 25px;
 }

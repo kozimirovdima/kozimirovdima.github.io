@@ -193,22 +193,26 @@ h1 {
 	}
 }
 .sistemi {
+	padding: 20px;
 	&-span{
 		padding-left: 35px;
 		vertical-align: middle;
 		height: 22px;
-		margin-bottom: 30px;
+		
 	}
-	
+
 	&-a{
 		vertical-align: middle;
 		 background-image: url(../img/sistemi/icon.png);
 		 background-repeat: no-repeat;
-		 width: 22px;
+		 margin-bottom: 15px;
+		 height: 22px;
 		 color: black;
+		 display: inline-block;
 		 &:hover{
 		 	color:black;
 		 	text-decoration: none;
+
 		 	background-image: url(../img/sistemi/iconactive.png);
 		 }
 	}
@@ -220,8 +224,25 @@ h1 {
 	margin: 25px 0;	
 }
 .vigodi {
+	&-a{
+		background-image: url(../img/vigodi/fon1.png);
+		background-repeat: no-repeat;
+		color:white;
+		padding-top: 1px;
+		padding-left: 6px;
+		line-height: 18px;
+
+		&:hover{
+			background-image: url(../img/vigodi/fon.png);
+			text-decoration: none;
+			color:white;
+		}
+	}
 	&-span{
 		font-weight: 400;
+		padding: 10px;
+		line-height: 18px;
+		color:black;
 		
 	}
 	&-img{
@@ -235,6 +256,7 @@ h1 {
 	}
 	&-block{
 		margin-top: 30px;
+		margin-bottom: 50px;
 	}
 }
 .feedback>p{

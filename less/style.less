@@ -259,6 +259,7 @@ h1 {
 }
 
 .get{
+	margin-bottom: 100px;
 	&-h1{
 		font-size: 42px;
 		margin-top: 45px;
@@ -315,4 +316,27 @@ h1 {
 .get-black p {
 	padding-top: 25px;
 	color: white;
+}
+footer{
+	background-color: #313030;
+
+}
+.footer{
+	&-p{
+		padding: 40px 0;
+		color: white;
+	}
+	&-li{
+		display: inline-block;
+	}
+	&-img{
+		padding: 40px 0;
+	}
+	&-a{
+		text-decoration: none;
+		&:hover{
+			background-color: @red;
+			border-radius: 50%;
+		}
+	}
 }

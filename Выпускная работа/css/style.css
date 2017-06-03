@@ -39,31 +39,34 @@ i:hover {
   text-decoration: none;
   color: grey;
 }
-/* line 39, style.less */
+/* line 40, style.less */
 .header-ssilka:hover {
   color: grey;
   text-decoration: none;
 }
-/* line 44, style.less */
+/* line 45, style.less */
 .header-spisok {
-  padding-top: 15px;
+  margin-top: 20px;
 }
-/* line 47, style.less */
+/* line 48, style.less */
 .header-soc {
   text-align: right;
   padding-right: 5px;
 }
-/* line 51, style.less */
+/* line 52, style.less */
 .header-top {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 55, style.less */
+/* line 56, style.less */
 .header-fon {
   background: url(../img/fon2.png) no-repeat center center;
   background-size: cover;
+  text-align: center;
+  width: 1242px;
+  height: 590px;
 }
-/* line 59, style.less */
+/* line 64, style.less */
 .header-spisok1 {
   display: inline-block;
   text-decoration: none;
@@ -72,49 +75,49 @@ i:hover {
   color: grey;
   padding-top: 45px;
 }
-/* line 66, style.less */
+/* line 71, style.less */
 .header-spisok1:hover {
   color: black;
   border-bottom: 2px solid #fe5c2e;
   padding-bottom: 10px;
 }
-/* line 72, style.less */
+/* line 77, style.less */
 .header-p {
   font-weight: 100;
   font-size: 17px;
 }
-/* line 76, style.less */
+/* line 81, style.less */
 .header-otstup {
   margin-top: 95px;
 }
-/* line 79, style.less */
+/* line 84, style.less */
 .header-span-bold {
   font-weight: 700;
 }
-/* line 82, style.less */
+/* line 87, style.less */
 .header-span-otstup {
   margin-top: 30px;
 }
-/* line 85, style.less */
+/* line 90, style.less */
 .header-opit {
   padding-top: 30px;
 }
-/* line 87, style.less */
+/* line 92, style.less */
 .header-opit:hover {
   background-image: url(../img/header-icon/hover.png);
   background-size: cover;
 }
-/* line 93, style.less */
+/* line 98, style.less */
 .fa-search {
   padding-left: 180px;
 }
-/* line 96, style.less */
+/* line 101, style.less */
 h1 {
   margin-top: 55px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-/* line 101, style.less */
+/* line 106, style.less */
 .zakazat {
   background-color: #fe5c2e;
   border-radius: 10px;
@@ -126,33 +129,33 @@ h1 {
   cursor: pointer;
   border: none;
 }
-/* line 111, style.less */
+/* line 116, style.less */
 .zakazat-span {
   color: #fe5c2e;
   padding-left: 5%;
 }
-/* line 116, style.less */
+/* line 121, style.less */
 .icon {
   height: 30px;
   width: 35px;
 }
-/* line 119, style.less */
+/* line 124, style.less */
 .icon-span-otstup {
   padding: 25px 25px;
 }
-/* line 123, style.less */
+/* line 128, style.less */
 .besplatno {
   color: #fe5c2e;
   text-decoration: underline;
   font-size: 22px;
 }
-/* line 129, style.less */
+/* line 134, style.less */
 .resheniya-p {
   font-weight: 100;
   margin-bottom: 40px;
   font-size: 18px;
 }
-/* line 137, style.less */
+/* line 142, style.less */
 .prodagi > span {
   display: inline-block;
   padding: 10px 0px;
@@ -160,12 +163,12 @@ h1 {
   margin-bottom: 20px;
   line-height: 14pt;
 }
-/* line 145, style.less */
+/* line 150, style.less */
 .prodagi > img {
   padding-top: 20px;
   padding-right: 30px;
 }
-/* line 149, style.less */
+/* line 154, style.less */
 .prodagi {
   width: 370px;
   margin-right: 20px;
@@ -173,60 +176,60 @@ h1 {
   background-color: #fff;
   background-size: auto;
 }
-/* line 155, style.less */
+/* line 160, style.less */
 .prodagi-span {
   font-weight: 700;
   font-size: 18pt;
   margin-top: 20px;
 }
-/* line 163, style.less */
+/* line 168, style.less */
 .prodagi-razvernut {
   color: #fe5c2e;
   font-weight: 100;
 }
-/* line 168, style.less */
+/* line 173, style.less */
 .btn {
   padding: 16px;
   text-decoration: none;
 }
-/* line 172, style.less */
+/* line 177, style.less */
 .btn:hover {
   color: white;
   background-color: #fe5c2e;
   cursor: pointer;
 }
-/* line 177, style.less */
+/* line 182, style.less */
 .btn.active {
   background-color: black;
   color: white;
   cursor: pointer;
 }
-/* line 183, style.less */
+/* line 188, style.less */
 .hidden {
   display: none;
 }
-/* line 186, style.less */
+/* line 191, style.less */
 .erp-p {
   font-size: 18px;
   font-weight: 700;
   padding: 30px;
 }
-/* line 190, style.less */
+/* line 195, style.less */
 .erp-p1 {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 195, style.less */
+/* line 200, style.less */
 .sistemi {
   padding: 20px;
 }
-/* line 197, style.less */
+/* line 202, style.less */
 .sistemi-span {
   padding-left: 35px;
   vertical-align: middle;
   height: 22px;
 }
-/* line 204, style.less */
+/* line 209, style.less */
 .sistemi-a {
   vertical-align: middle;
   background-image: url(../img/sistemi/icon.png);
@@ -236,18 +239,18 @@ h1 {
   color: black;
   display: inline-block;
 }
-/* line 212, style.less */
+/* line 217, style.less */
 .sistemi-a:hover {
   color: black;
   text-decoration: none;
   background-image: url(../img/sistemi/iconactive.png);
 }
-/* line 222, style.less */
+/* line 227, style.less */
 .vigodi > h4 {
   font-weight: 700;
   margin: 25px 0;
 }
-/* line 227, style.less */
+/* line 232, style.less */
 .vigodi-a {
   background-image: url(../img/vigodi/fon1.png);
   background-repeat: no-repeat;
@@ -256,183 +259,183 @@ h1 {
   padding-left: 6px;
   line-height: 18px;
 }
-/* line 235, style.less */
+/* line 240, style.less */
 .vigodi-a:hover {
   background-image: url(../img/vigodi/fon.png);
   text-decoration: none;
   color: white;
 }
-/* line 241, style.less */
+/* line 246, style.less */
 .vigodi-span {
   font-weight: 400;
   padding: 10px;
   line-height: 18px;
   color: black;
 }
-/* line 248, style.less */
+/* line 253, style.less */
 .vigodi-img {
   display: block;
   float: left;
   padding: 24px;
 }
-/* line 252, style.less */
+/* line 257, style.less */
 .vigodi-img-2 {
   margin: 25px 0;
   text-align: left;
 }
-/* line 257, style.less */
+/* line 262, style.less */
 .vigodi-block {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-/* line 262, style.less */
+/* line 267, style.less */
 .feedback > p {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 267, style.less */
+/* line 272, style.less */
 .feedback-img {
   height: 60px;
   padding: 15px 0;
   margin: 15px 10px;
 }
-/* line 272, style.less */
+/* line 277, style.less */
 .feedback-block {
   height: 200px;
   margin-top: 25px;
 }
-/* line 275, style.less */
+/* line 280, style.less */
 .feedback-block:hover {
   background-color: #fff;
 }
-/* line 280, style.less */
+/* line 285, style.less */
 .feedback > h4 {
   text-decoration: underline;
   color: #fe5c2e;
   margin: 55px 0px;
   margin-bottom: 75px;
 }
-/* line 287, style.less */
+/* line 292, style.less */
 .etapi-h4 {
   font-weight: 700;
 }
-/* line 290, style.less */
+/* line 295, style.less */
 .etapi-4etap {
   background-color: #fff;
   height: 300px;
 }
-/* line 294, style.less */
+/* line 299, style.less */
 .etapi-step {
   margin: 0;
   padding: 15px;
   background-color: #fff;
   height: 150px;
 }
-/* line 301, style.less */
+/* line 306, style.less */
 .etapi-step > h4 {
   font-size: 18px;
   color: grey;
   font-weight: 700;
 }
-/* line 306, style.less */
+/* line 311, style.less */
 .etapi-step > span {
   color: grey;
 }
-/* line 310, style.less */
+/* line 315, style.less */
 .predlogenie-p {
   font-size: 12px;
   font-weight: 100;
   text-decoration: underline;
   color: grey;
 }
-/* line 316, style.less */
+/* line 321, style.less */
 .predlogenie-fon {
   background: url(../img/predlogenie/fon.png) no-repeat center center;
   background-size: cover;
   background-color: #fff;
   height: 286px;
 }
-/* line 322, style.less */
+/* line 327, style.less */
 .predlogenie-img {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 327, style.less */
+/* line 332, style.less */
 .predlogenie-button {
   position: relative;
   top: 120px;
   left: -52%;
 }
-/* line 332, style.less */
+/* line 337, style.less */
 .predlogenie-span {
   left: -55%;
 }
-/* line 336, style.less */
+/* line 341, style.less */
 .footer {
   padding: 50px 0px;
 }
-/* line 338, style.less */
+/* line 343, style.less */
 .footer-span {
   font-size: 14px;
   font-weight: 100;
   color: grey;
 }
-/* line 343, style.less */
+/* line 348, style.less */
 .footer-p {
   font-size: 16px;
   font-weight: 100;
   color: grey;
 }
-/* line 348, style.less */
+/* line 353, style.less */
 .footer-phone {
   text-decoration: underline;
   color: black;
   font-weight: 900;
   font-size: 17px;
 }
-/* line 355, style.less */
+/* line 360, style.less */
 .tab {
   margin-right: 0px;
   margin: 0 auto;
 }
-/* line 358, style.less */
+/* line 363, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 363, style.less */
+/* line 368, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 368, style.less */
+/* line 373, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/* line 375, style.less */
+/* line 380, style.less */
 .nav li a {
   padding: 0px;
 }
-/* line 378, style.less */
+/* line 383, style.less */
 .btn-default {
   margin-right: 0;
 }
-/* line 381, style.less */
+/* line 386, style.less */
 .nav-tabs {
   border-bottom: 0px solid #ddd;
   margin-left: 20%;
 }
-/* line 385, style.less */
+/* line 390, style.less */
 .nav-tabs > li > a {
   margin-right: 0px;
 }
-/* line 389, style.less */
+/* line 394, style.less */
 .btn-default:active {
   background-color: black;
   color: white;

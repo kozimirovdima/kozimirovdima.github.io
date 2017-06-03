@@ -350,92 +350,91 @@ h1 {
 }
 /* line 321, style.less */
 .predlogenie-fon {
-  background: url(../img/predlogenie/fon.png) no-repeat center center;
   background-size: cover;
-  background-color: #fff;
-  height: 286px;
+  height: 200px;
 }
-/* line 327, style.less */
+/* line 325, style.less */
 .predlogenie-img {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 332, style.less */
+/* line 330, style.less */
 .predlogenie-button {
   position: relative;
   top: 120px;
-  left: -52%;
+  left: -49%;
 }
-/* line 337, style.less */
+/* line 335, style.less */
 .predlogenie-span {
-  left: -55%;
+  left: -50%;
 }
-/* line 341, style.less */
+/* line 339, style.less */
 .footer {
   padding: 50px 0px;
+  line-height: 150px;
 }
-/* line 343, style.less */
+/* line 342, style.less */
 .footer-span {
   font-size: 14px;
   font-weight: 100;
   color: grey;
 }
-/* line 348, style.less */
+/* line 347, style.less */
 .footer-p {
   font-size: 16px;
   font-weight: 100;
   color: grey;
 }
-/* line 353, style.less */
+/* line 352, style.less */
 .footer-phone {
   text-decoration: underline;
   color: black;
   font-weight: 900;
   font-size: 17px;
 }
-/* line 360, style.less */
+/* line 359, style.less */
 .tab {
   margin-right: 0px;
   margin: 0 auto;
 }
-/* line 363, style.less */
+/* line 362, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 368, style.less */
+/* line 367, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 373, style.less */
+/* line 372, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/* line 380, style.less */
+/* line 379, style.less */
 .nav li a {
   padding: 0px;
 }
-/* line 383, style.less */
+/* line 382, style.less */
 .btn-default {
   margin-right: 0;
 }
-/* line 386, style.less */
+/* line 385, style.less */
 .nav-tabs {
   border-bottom: 0px solid #ddd;
   margin-left: 20%;
 }
-/* line 390, style.less */
+/* line 389, style.less */
 .nav-tabs > li > a {
   margin-right: 0px;
 }
-/* line 394, style.less */
+/* line 393, style.less */
 .btn-default:active {
   background-color: black;
   color: white;

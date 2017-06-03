@@ -187,7 +187,6 @@ h1 {
 /* line 168, style.less */
 .btn {
   padding: 16px;
-  margin-right: 14px;
   text-decoration: none;
 }
 /* line 172, style.less */
@@ -217,157 +216,200 @@ h1 {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 195, style.less */
-.sistemi {
-  margin: 5px;
+/* line 196, style.less */
+.sistemi-span {
+  padding-left: 35px;
+  vertical-align: middle;
+  height: 22px;
+  margin-bottom: 30px;
 }
-/* line 198, style.less */
+/* line 203, style.less */
+.sistemi-a {
+  vertical-align: middle;
+  background-image: url(../img/sistemi/icon.png);
+  background-repeat: no-repeat;
+  width: 22px;
+  color: black;
+}
+/* line 209, style.less */
+.sistemi-a:hover {
+  color: black;
+  text-decoration: none;
+  background-image: url(../img/sistemi/iconactive.png);
+}
+/* line 218, style.less */
 .vigodi > h4 {
   font-weight: 700;
   margin: 25px 0;
 }
-/* line 203, style.less */
+/* line 223, style.less */
 .vigodi-span {
   font-weight: 400;
 }
-/* line 207, style.less */
+/* line 227, style.less */
 .vigodi-img {
   display: block;
   float: left;
   padding: 24px;
 }
-/* line 211, style.less */
+/* line 231, style.less */
 .vigodi-img-2 {
   margin: 25px 0;
   text-align: left;
 }
-/* line 216, style.less */
+/* line 236, style.less */
 .vigodi-block {
   margin-top: 30px;
 }
-/* line 220, style.less */
+/* line 240, style.less */
 .feedback > p {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 225, style.less */
+/* line 245, style.less */
 .feedback-img {
   height: 60px;
   padding: 15px 0;
   margin: 15px 10px;
 }
-/* line 230, style.less */
+/* line 250, style.less */
 .feedback-block {
   height: 200px;
   margin-top: 25px;
 }
-/* line 233, style.less */
+/* line 253, style.less */
 .feedback-block:hover {
   background-color: #fff;
 }
-/* line 238, style.less */
+/* line 258, style.less */
 .feedback > h4 {
   text-decoration: underline;
   color: #fe5c2e;
   margin: 55px 0px;
   margin-bottom: 75px;
 }
-/* line 245, style.less */
+/* line 265, style.less */
 .etapi-h4 {
   font-weight: 700;
 }
-/* line 248, style.less */
+/* line 268, style.less */
 .etapi-4etap {
   background-color: #fff;
   height: 300px;
 }
-/* line 252, style.less */
+/* line 272, style.less */
 .etapi-step {
   margin: 0;
   padding: 15px;
   background-color: #fff;
   height: 150px;
 }
-/* line 259, style.less */
+/* line 279, style.less */
 .etapi-step > h4 {
   font-size: 18px;
   color: grey;
   font-weight: 700;
 }
-/* line 264, style.less */
+/* line 284, style.less */
 .etapi-step > span {
   color: grey;
 }
-/* line 268, style.less */
+/* line 288, style.less */
 .predlogenie-p {
   font-size: 12px;
   font-weight: 100;
   text-decoration: underline;
   color: grey;
 }
-/* line 274, style.less */
+/* line 294, style.less */
 .predlogenie-fon {
   background: url(../img/predlogenie/fon.png) no-repeat center center;
   background-size: cover;
   background-color: #fff;
   height: 286px;
 }
-/* line 280, style.less */
+/* line 300, style.less */
 .predlogenie-img {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 285, style.less */
+/* line 305, style.less */
 .predlogenie-button {
   position: relative;
   top: 120px;
   left: -52%;
 }
-/* line 290, style.less */
+/* line 310, style.less */
 .predlogenie-span {
   left: -55%;
 }
-/* line 294, style.less */
+/* line 314, style.less */
 .footer {
   padding: 50px 0px;
 }
-/* line 296, style.less */
+/* line 316, style.less */
 .footer-span {
   font-size: 14px;
   font-weight: 100;
   color: grey;
 }
-/* line 301, style.less */
+/* line 321, style.less */
 .footer-p {
   font-size: 16px;
   font-weight: 100;
   color: grey;
 }
-/* line 306, style.less */
+/* line 326, style.less */
 .footer-phone {
   text-decoration: underline;
   color: black;
   font-weight: 900;
   font-size: 17px;
 }
-/* line 314, style.less */
+/* line 333, style.less */
+.tab {
+  margin-right: 0px;
+  margin: 0 auto;
+}
+/* line 336, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 320, style.less */
+/* line 341, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 325, style.less */
+/* line 346, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/*# sourceMappingURL=style.css.map */
+/* line 353, style.less */
+.nav li a {
+  padding: 0px;
+}
+/* line 356, style.less */
+.btn-default {
+  margin-right: 0;
+}
+/* line 359, style.less */
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  margin-left: 20%;
+}
+/* line 363, style.less */
+.nav-tabs > li > a {
+  margin-right: 0px;
+}
+/* line 367, style.less */
+.btn-default:active {
+  background-color: black;
+  color: white;
+}

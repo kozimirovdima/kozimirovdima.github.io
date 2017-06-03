@@ -351,4 +351,23 @@ h1 {
   font-weight: 900;
   font-size: 17px;
 }
+/* line 314, style.less */
+.tab-a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+/* line 320, style.less */
+.tab-a:hover {
+  color: white;
+  background-color: #fe5c2e;
+}
+/* line 325, style.less */
+.tab-li {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0px;
+}
 /*# sourceMappingURL=style.css.map */

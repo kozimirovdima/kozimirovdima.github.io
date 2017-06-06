@@ -345,27 +345,35 @@ h1 {
   height: 250px;
 }
 /* line 315, style.less */
+.etapi-1 {
+  height: 250px;
+}
+/* line 319, style.less */
 .etapi-h4 {
   font-weight: 600;
 }
-/* line 319, style.less */
+/* line 323, style.less */
 .etapi li {
   border: none;
 }
-/* line 322, style.less */
+/* line 326, style.less */
 .etapi-a {
   border: none;
   color: black;
 }
-/* line 325, style.less */
+/* line 329, style.less */
 .etapi-a:hover {
   border: none;
 }
-/* line 328, style.less */
+/* line 332, style.less */
 .etapi-a:active {
   border: none;
 }
-/* line 333, style.less */
+/* line 337, style.less */
+.tab-pane active {
+  background-color: #fff;
+}
+/* line 340, style.less */
 .step {
   display: inline-block;
   margin: 0;
@@ -374,128 +382,128 @@ h1 {
   height: 150px;
   width: 25%;
 }
-/* line 340, style.less */
+/* line 347, style.less */
 .step span {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 345, style.less */
+/* line 352, style.less */
 .step-p {
   padding-top: 15px;
 }
-/* line 350, style.less */
+/* line 357, style.less */
 .nav-tabs {
   text-align: center;
   margin-left: 0;
 }
-/* line 354, style.less */
+/* line 361, style.less */
 .etapi li {
   text-align: center;
 }
-/* line 357, style.less */
+/* line 364, style.less */
 .etapi-step > h4 {
   font-size: 18px;
   color: grey;
   font-weight: 700;
 }
-/* line 362, style.less */
+/* line 369, style.less */
 .etapi-step > span {
   color: grey;
 }
-/* line 366, style.less */
+/* line 373, style.less */
 .predlogenie-p {
   font-size: 12px;
   font-weight: 100;
   text-decoration: underline;
   color: grey;
 }
-/* line 372, style.less */
+/* line 379, style.less */
 .predlogenie-fon {
   background-size: cover;
   height: 200px;
 }
-/* line 376, style.less */
+/* line 383, style.less */
 .predlogenie-img {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 381, style.less */
+/* line 388, style.less */
 .predlogenie-button {
   position: relative;
   top: 120px;
   left: -49%;
 }
-/* line 386, style.less */
+/* line 393, style.less */
 .predlogenie-span {
   left: -50%;
 }
-/* line 390, style.less */
+/* line 397, style.less */
 .footer {
   padding: 50px 0px;
   line-height: 150px;
 }
-/* line 393, style.less */
+/* line 400, style.less */
 .footer-span {
   font-size: 14px;
   font-weight: 100;
   color: grey;
 }
-/* line 398, style.less */
+/* line 405, style.less */
 .footer-p {
   font-size: 16px;
   font-weight: 100;
   color: grey;
 }
-/* line 403, style.less */
+/* line 410, style.less */
 .footer-phone {
   text-decoration: underline;
   color: black;
   font-weight: 900;
   font-size: 17px;
 }
-/* line 410, style.less */
+/* line 417, style.less */
 .tab {
   margin-right: 0px;
   margin: 0 auto;
 }
-/* line 413, style.less */
+/* line 420, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 418, style.less */
+/* line 425, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 423, style.less */
+/* line 430, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/* line 430, style.less */
+/* line 437, style.less */
 .nav li a {
   padding: 0px;
 }
-/* line 433, style.less */
+/* line 440, style.less */
 .btn-default {
   margin-right: 0;
 }
-/* line 436, style.less */
+/* line 443, style.less */
 .nav-tabs {
   border-bottom: 0px solid #ddd;
   margin-left: 20%;
 }
-/* line 440, style.less */
+/* line 447, style.less */
 .nav-tabs > li > a {
   margin-right: 0px;
 }
-/* line 444, style.less */
+/* line 451, style.less */
 .btn-default:active {
   background-color: black;
   color: white;

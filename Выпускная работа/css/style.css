@@ -414,113 +414,104 @@ h1 {
 #chto_eshe {
   font-size: 35pt;
 }
-/* line 375, style.less */
-.predlogenie {
-  background-image: url(../img/predlogenie/fon.png);
-  width: 100%;
-  height: 650px;
-  background-size: cover;
-}
-/* line 381, style.less */
-.predlogenie-p {
-  font-size: 12px;
-  font-weight: 100;
-  text-decoration: underline;
-  color: grey;
-  text-align: left;
-}
-/* line 388, style.less */
-.predlogenie-fon {
-  height: 200px;
-  width: 100%;
-  background-size: cover;
-}
-/* line 393, style.less */
-.predlogenie-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-/* line 398, style.less */
-.predlogenie-button {
-  position: relative;
-  top: 120px;
-  left: -49%;
-}
-/* line 403, style.less */
-.predlogenie-span {
-  left: -50%;
-  padding-top: 35px;
-  float: left;
-}
-/* line 409, style.less */
+/* line 376, style.less */
 .footer {
-  padding: 50px 0px;
-  line-height: 150px;
+  padding: 0px 0px;
+  line-height: 50px;
 }
-/* line 412, style.less */
+/* line 379, style.less */
 .footer-span {
   font-size: 14px;
   font-weight: 100;
   color: grey;
 }
-/* line 417, style.less */
+/* line 384, style.less */
 .footer-p {
   font-size: 16px;
   font-weight: 100;
   color: grey;
 }
-/* line 422, style.less */
+/* line 389, style.less */
 .footer-phone {
-  text-decoration: underline;
   color: black;
   font-weight: 900;
   font-size: 17px;
 }
-/* line 429, style.less */
+/* line 396, style.less */
 .tab {
   margin-right: 0px;
   margin: 0 auto;
 }
-/* line 432, style.less */
+/* line 399, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 437, style.less */
+/* line 404, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 442, style.less */
+/* line 409, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/* line 449, style.less */
+/* line 416, style.less */
 .nav li a {
   padding: 0px;
 }
-/* line 452, style.less */
+/* line 419, style.less */
 .btn-default {
   margin-right: 0;
 }
-/* line 455, style.less */
+/* line 422, style.less */
 .nav-tabs {
   border-bottom: 0px solid #ddd;
   margin-left: 0%;
   padding-left: 15%;
 }
-/* line 460, style.less */
+/* line 427, style.less */
 .nav-tabs > li > a {
   margin-right: 0px;
 }
-/* line 464, style.less */
+/* line 431, style.less */
 .btn-default:active {
   background-color: black;
   color: white;
+}
+/* line 436, style.less */
+.nam-doveryaut-fon {
+  background-image: url(../img/predlogenie/fon.png);
+  background-size: cover;
+  width: 100%;
+}
+/* line 443, style.less */
+.nam-doveryaut-h1 {
+  margin-top: 95px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+/* line 448, style.less */
+.nam-doveryaut-img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+/* line 454, style.less */
+.zakazat-text1 {
+  color: #fe5c2e;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+/* line 459, style.less */
+.eshe p {
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration: underline;
+  color: black;
 }

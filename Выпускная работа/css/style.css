@@ -546,8 +546,10 @@ h1 {
           transform: translateX(-50%) translateY(0%);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 12px;
 }
-/* line 490, style.less */
+/* line 492, style.less */
 .popup-close {
   position: absolute;
   top: 1rem;
@@ -556,13 +558,13 @@ h1 {
   font-size: 2rem;
   color: black;
 }
-/* line 499, style.less */
+/* line 501, style.less */
 .popup h4 {
   margin-top: 40px;
   margin-bottom: 23px;
   font-weight: 700;
 }
-/* line 504, style.less */
+/* line 506, style.less */
 .popup input {
   padding: 15px;
   border: 2px solid #fe5c2e;

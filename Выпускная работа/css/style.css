@@ -505,7 +505,7 @@ h1 {
 /* line 453, style.less */
 .zakazat-text1 {
   color: #fe5c2e;
-  margin-top: 20px;
+  margin-top: 35px;
   padding-left: 20px;
 }
 /* line 458, style.less */
@@ -524,4 +524,49 @@ h1 {
   color: white;
   cursor: pointer;
   border: none;
+}
+/* line 475, style.less */
+.popup {
+  width: 333px;
+  height: 444px;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-170%);
+          transform: translateX(-50%) translateY(-170%);
+  top: 25%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 1;
+  z-index: 999;
+}
+/* line 486, style.less */
+.popup:target {
+  -webkit-transform: translateX(-50%) translateY(0%);
+          transform: translateX(-50%) translateY(0%);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* line 490, style.less */
+.popup-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+/* line 499, style.less */
+.popup h4 {
+  margin-top: 40px;
+  margin-bottom: 23px;
+  font-weight: 700;
+}
+/* line 504, style.less */
+.popup input {
+  padding: 15px;
+  border: 2px solid #fe5c2e;
+  border-radius: 5px;
+  margin: 2px;
+  display: inline-block;
 }

@@ -69,7 +69,7 @@
       <p class="header-p">Подбор. Внедрение. Разработка. Обучение. Сопровождение. <br>
        Бесплатное гарантийное обслуживание - 2 года!
      </p>
-     <button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Заказать</button><span class="zakazat-span">Закажите бесплатное техническое задание!</span>
+     <a href="#modal-1" id=""><button type="button" class="zakazat">Заказать</button></a><span class="zakazat-span">Закажите бесплатное техническое задание!</span>
    </div>
    <div class="col-md-3 header-otstup text-center">
     <img src="img/header-foto.png" alt="">
@@ -77,27 +77,25 @@
 </div>
 </div>
 
-<!-- //modal -->
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Заказать услуги</h4>
-      </div>
-      <div class="modal-body">
-        Перечень услуг
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-        <button type="button" class="btn btn-primary">Подтвердить выбор</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- //modal -->
 
+ <!-- modal -->
+
+    <div class="popup" id="modal-1">
+      <a href="#close" class="popup-close">&times;</a>
+      <h4 class="text-center">
+        Заказать бесплатное техническое задание
+      </h4>
+      <p>Чтоы наш менеджер набрал Вам в ближайщее время, пожалуйста заполните форму ниже</p>
+      <form action="">
+        <input type="text" placeholder="Имя" class="text-center">
+        <input type="phone" placeholder="Телефон" class="text-center">
+        <input type="email" placeholder="E-mail" class="text-center">
+        <button class="zakazat">Сделать заказ</button>
+      </form>
+    </div>
+
+<!-- modal -->
+ 
 <div class="row">
   <div class="col-md-offset-1 header-span-otstup">
    <div class="col-md-4">
@@ -537,9 +535,9 @@
                 </div>
                 <div class="row">
                   <div class="col-md-5 ">
-                    <button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Заказать</button>
+                     <a href="#modal-1" id=""><button type="button" class="zakazat">Заказать</button></a>
                   </div>
-                  <div class="col-md-7 zakazat-text1"><span class="">Закажите бесплатное техническое задание!</span></div>
+                  <div class="col-md-7 zakazat-text1"><span class="zakazat-span">Закажите бесплатное техническое задание!</span></div>
                 </div>
               </div>
               <div class="col-md-3">

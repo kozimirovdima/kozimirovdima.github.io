@@ -437,81 +437,91 @@ h1 {
   font-weight: 900;
   font-size: 17px;
 }
-/* line 396, style.less */
+/* line 395, style.less */
 .tab {
   margin-right: 0px;
   margin: 0 auto;
 }
-/* line 399, style.less */
+/* line 398, style.less */
 .tab-a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
-/* line 404, style.less */
+/* line 403, style.less */
 .tab-a:hover {
   color: white;
   background-color: #fe5c2e;
 }
-/* line 409, style.less */
+/* line 408, style.less */
 .tab-li {
   height: 100%;
   padding: 0;
   margin: 0;
   border: 0px;
 }
-/* line 416, style.less */
+/* line 415, style.less */
 .nav li a {
   padding: 0px;
 }
-/* line 419, style.less */
+/* line 418, style.less */
 .btn-default {
   margin-right: 0;
 }
-/* line 422, style.less */
+/* line 421, style.less */
 .nav-tabs {
   border-bottom: 0px solid #ddd;
   margin-left: 0%;
   padding-left: 15%;
 }
-/* line 427, style.less */
+/* line 426, style.less */
 .nav-tabs > li > a {
   margin-right: 0px;
 }
-/* line 431, style.less */
+/* line 430, style.less */
 .btn-default:active {
   background-color: black;
   color: white;
 }
-/* line 436, style.less */
+/* line 435, style.less */
 .nam-doveryaut-fon {
   background-image: url(../img/predlogenie/fon.png);
   background-size: cover;
   width: 100%;
 }
-/* line 443, style.less */
+/* line 442, style.less */
 .nam-doveryaut-h1 {
   margin-top: 95px;
   padding: 20px;
   padding-bottom: 0;
 }
-/* line 448, style.less */
+/* line 447, style.less */
 .nam-doveryaut-img {
   display: block;
   margin: 0 auto;
   padding-bottom: 100px;
 }
-/* line 454, style.less */
+/* line 453, style.less */
 .zakazat-text1 {
   color: #fe5c2e;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-left: 20px;
 }
-/* line 459, style.less */
+/* line 458, style.less */
 .eshe p {
   font-size: 12px;
   line-height: 12px;
   text-decoration: underline;
   color: black;
+}
+/* line 464, style.less */
+.btn-primary {
+  background-color: #fe5c2e;
+  border-radius: 10px;
+  height: 60px;
+  width: 270px;
+  color: white;
+  cursor: pointer;
+  border: none;
 }

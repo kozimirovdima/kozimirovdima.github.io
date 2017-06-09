@@ -69,13 +69,34 @@
       <p class="header-p">Подбор. Внедрение. Разработка. Обучение. Сопровождение. <br>
        Бесплатное гарантийное обслуживание - 2 года!
      </p>
-     <button class="zakazat">Заказать</button><span class="zakazat-span">Закажите бесплатное техническое задание!</span>
+     <button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Заказать</button><span class="zakazat-span">Закажите бесплатное техническое задание!</span>
    </div>
    <div class="col-md-3 header-otstup text-center">
     <img src="img/header-foto.png" alt="">
   </div>
 </div>
 </div>
+
+<!-- //modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Заказать услуги</h4>
+      </div>
+      <div class="modal-body">
+        Перечень услуг
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Подтвердить выбор</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //modal -->
 
 <div class="row">
   <div class="col-md-offset-1 header-span-otstup">
@@ -516,7 +537,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-5 ">
-                    <button class="zakazat">Заказать</button>
+                    <button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Заказать</button>
                   </div>
                   <div class="col-md-7 zakazat-text1"><span class="">Закажите бесплатное техническое задание!</span></div>
                 </div>

@@ -295,7 +295,8 @@ h1 {
 }
 /* line 272, style.less */
 .feedback-img {
-  height: 60px;
+  height: auto;
+  width: auto;
   padding: 15px 0;
   margin: 15px 10px;
 }
@@ -314,6 +315,12 @@ h1 {
   color: #fe5c2e;
   margin: 55px 0px;
   margin-bottom: 75px;
+}
+.feedback-h4{
+  padding: 55px;
+  margin: 55px; 
+  color: #fe5c2e;
+  text-decoration: underline;
 }
 /* line 291, style.less */
 .active {

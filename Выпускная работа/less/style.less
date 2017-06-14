@@ -143,9 +143,9 @@ h1 {
 	display: inline-block;
 	padding: 10px 0px;
 	padding-left: 20px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 	line-height: 14pt;
-	
+
 }
 .prodagi>img{
 	padding-top: 20px;
@@ -171,8 +171,8 @@ h1 {
 	}
 }
 .btn {
-	padding: 16px;	
-	
+	padding: 16px;
+
 	text-decoration: none;
 	&:hover{
 		color: white;
@@ -203,7 +203,7 @@ h1 {
 		padding-left: 35px;
 		vertical-align: middle;
 		height: 22px;
-		
+
 	}
 
 	&-a{
@@ -226,7 +226,7 @@ h1 {
 
 .vigodi>h4{
 	font-weight: 700;
-	margin: 25px 0;	
+	margin: 25px 0;
 }
 .vigodi {
 	&-a{
@@ -248,7 +248,7 @@ h1 {
 		padding: 10px;
 		line-height: 18px;
 		color:black;
-		
+
 	}
 	&-img{
 		display: block;
@@ -284,7 +284,7 @@ h1 {
 }
 .feedback>h4{
 	text-decoration: underline;
-	color: @orange;	
+	color: @orange;
 	margin: 55px 0px;
 	margin-bottom: 75px;
 }
@@ -318,7 +318,7 @@ h1 {
 
 	&-h4{
 		font-weight: 600;
-		
+
 	}
 	li{
 		border: none;
@@ -340,7 +340,7 @@ h1 {
 .step{
 	display: inline-block;
 	margin: 0;
-	padding: 22px;	
+	padding: 22px;
 	background-color: #fff;
 	height: 150px;
 	width: 25%;
@@ -405,7 +405,7 @@ h1 {
 			background-color: @orange;
 		}
 	}
-	&-li{	
+	&-li{
 		height: 100%;
 		padding: 0;
 		margin: 0;
@@ -424,7 +424,7 @@ h1 {
 	padding-left: 15%;
 }
 .nav-tabs>li>a {
-	margin-right: 0px; 
+	margin-right: 0px;
 
 }
 .btn-default:active{
@@ -459,14 +459,14 @@ h1 {
 	font-size: 12px;
 	line-height: 12px;
 	text-decoration: underline;
-	color: black;	
+	color: black;
 }
 .btn-primary {
 background-color: @orange;
 	border-radius: 10px;
 	height: 60px;
 	width: 270px;
-	
+
 	color: white;
 	cursor: pointer;
 	border: none;
@@ -509,4 +509,211 @@ background-color: @orange;
 		border-radius: 5px;
 		margin: 2px;
 		display: inline-block;
+	}
+	li.dropdown{
+
+	}
+	.burger-menu, .dropdown-menu{
+		display: none;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	@media screen and (max-width: 720px) {
+		.burger-menu, .dropdown-menu{
+			display: none ;
+		}
+		.dropdown-menu{
+			border: 1px solid @orange;
+		}
+		.dropdown-menu li {
+			border-bottom: 1px solid @orange;
+		}
+		.header-soc{
+		text-align: left;
+		float: left;
+		font-size: 11px;
+		width: 100%;
+		height: 100%;
+		margin: 25px 25px;
+		}
+		.phone{
+			font-size: 12px;
+			font-weight: 700;
+			width: 100%;
+			float: right;
+			text-align: right;
+		}
+		.header-top{
+			text-align: auto;
+		}
+		.info{
+			position: absolute;
+			top: 40px;
+			right: 20px;
+			width: 100%;
+			text-align: right;
+			float: right;
+		}
+		.header-fon{
+			width: 100vw;
+			height: 100vh;
+		}
+		.header-spisok{
+			display: none;
+		}
+		.bazi-dannih{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+		.erc-crm{
+			width: 100%;
+			height: 100%;
+			margin-top: 145px;
+			text-align: left;
+		}
+		.header-otstup{
+			height: 100%;
+			width: 100%;
+		}
+
+		.header-opit1{
+			margin-top: 385px;
+
+		}
+		.header-opit1:hover{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			background-size: cover;
+		}
+		.header-opit{
+			padding: 55px;
+			&:hover{
+				padding: 55px;
+			}
+		}
+		.header-otstup{
+			text-align: center;
+			font-size: 12px;
+		}
+		.prodagi{
+			width: 100vw;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			-webkit-background-size: auto;
+			background-size: auto;
+		}
+		.sistemi{
+			font-size: 12px;
+			&-a{
+				width: 100%;
+				height: 100%;
+				padding: 5px;
+				text-align: left;
+			}
+		}
+		.s_kem_rabotaem-img{
+			width: 100vw;
+			height: 100%;
+		}
+		.vigodi{
+			margin: 0 auto;
+			padding: 0;
+			&-img-2{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.feedback-block{
+			text-align: center;
+			width: 100%;
+			height: 100%;
+		}
+		h1{
+			font-size: 30px;
+		}
+		.etapi{
+			text-align: center;
+			width: 100%;
+
+			height: 100%;
+			margin: 0 auto;
+		}
+		.step{
+			width: 100%;
+			height: 100%;
+		}
+		.nam-doveryaut-img{
+			width: 100vw;
+
+		}
+		.nam-doveryaut-fon{
+			width: 100vw;
+			height: 100vh;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+		.zakazat{
+			width: 100%;
+			height: 100%;
+		}
+		.header-fon{
+			padding-top: 0;
+			margin-top: 0;
+		}
+		.eshe-foto{
+		position: relative;
+	  bottom: 27%;
+		text-align: center;
+	  -webkit-background-size: contain;
+	  background-size: contain;
+		}
+		.eshe-h1{
+			position: absolute;
+			top: 225%;
+			width: 100vw;
+			text-align: center;
+		}
+		.eshe{
+			position: absolute;
+			top: 540%;
+		}
+		.eshe-button, .eshe-span{
+			position: absolute;
+			width: 100%;
+			top: 325%;
+		}
+		.eshe-span{
+			top: 400%;
+			text-align: center;
+		}
+		.footer{
+			padding-top: 55%;
+			font-size: 12px;
+			font-weight: 100;
+		}
+		.footer-span{
+			float: left;
+			text-align: left;
+			line-height: 2.5rem;
+			font-weight: 700;
+		}
+		.footer-phone{
+			text-decoration: none;
+			font-size: 12px;
+		}
+		.footer-p{
+			text-align: center;
+		}
+		.bazi-dannih-img {
+			position: relative;
+			top: -35px;
+			text-align: center;
+		}
+		body{
+			padding: 0px 23px;
+		}
 	}

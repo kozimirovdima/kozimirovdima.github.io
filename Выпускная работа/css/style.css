@@ -655,19 +655,27 @@ h1 {
   .header-opit1 {
     margin-top: 385px;
   }
-  /* line 584, style.less */
+  /* line 585, style.less */
   .header-opit1:hover {
     width: 100%;
     height: 100%;
     text-align: center;
     background-size: cover;
   }
-  /* line 590, style.less */
+  /* line 591, style.less */
+  .header-opit {
+    padding: 55px;
+  }
+  /* line 593, style.less */
+  .header-opit:hover {
+    padding: 55px;
+  }
+  /* line 597, style.less */
   .header-otstup {
     text-align: center;
     font-size: 12px;
   }
-  /* line 594, style.less */
+  /* line 601, style.less */
   .prodagi {
     width: 100vw;
     height: 100%;
@@ -675,124 +683,135 @@ h1 {
     margin: 0;
     background-size: auto;
   }
-  /* line 602, style.less */
+  /* line 609, style.less */
   .sistemi {
     font-size: 12px;
   }
-  /* line 604, style.less */
+  /* line 611, style.less */
   .sistemi-a {
     width: 100%;
     height: 100%;
     padding: 5px;
     text-align: left;
   }
-  /* line 611, style.less */
+  /* line 618, style.less */
   .s_kem_rabotaem-img {
     width: 100vw;
     height: 100%;
   }
-  /* line 615, style.less */
+  /* line 622, style.less */
   .vigodi {
     margin: 0 auto;
     padding: 0;
   }
-  /* line 618, style.less */
+  /* line 625, style.less */
   .vigodi-img-2 {
     width: 100%;
     height: 100%;
   }
-  /* line 623, style.less */
+  /* line 630, style.less */
   .feedback-block {
     text-align: center;
     width: 100%;
     height: 100%;
   }
-  /* line 628, style.less */
+  /* line 635, style.less */
   h1 {
     font-size: 30px;
   }
-  /* line 631, style.less */
+  /* line 638, style.less */
   .etapi {
     text-align: center;
     width: 100%;
     height: 100%;
     margin: 0 auto;
   }
-  /* line 638, style.less */
+  /* line 645, style.less */
   .step {
     width: 100%;
     height: 100%;
   }
-  /* line 642, style.less */
+  /* line 649, style.less */
   .nam-doveryaut-img {
     width: 100vw;
   }
-  /* line 645, style.less */
+  /* line 653, style.less */
   .nam-doveryaut-fon {
     width: 100vw;
     height: 100vh;
     background-size: contain;
   }
-  /* line 651, style.less */
+  /* line 659, style.less */
   .zakazat {
     width: 100%;
     height: 100%;
   }
-  /* line 655, style.less */
+  /* line 663, style.less */
   .header-fon {
     padding-top: 0;
     margin-top: 0;
   }
-  /* line 659, style.less */
+  /* line 667, style.less */
   .eshe-foto {
     position: relative;
-    bottom: 20%;
+    bottom: 27%;
+    text-align: center;
     background-size: contain;
   }
-  /* line 665, style.less */
+  /* line 674, style.less */
   .eshe-h1 {
     position: absolute;
     top: 225%;
     width: 100vw;
     text-align: center;
   }
-  /* line 671, style.less */
+  /* line 680, style.less */
   .eshe {
     position: absolute;
     top: 540%;
   }
-  /* line 675, style.less */
+  /* line 684, style.less */
   .eshe-button,
   .eshe-span {
     position: absolute;
     width: 100%;
     top: 325%;
   }
-  /* line 680, style.less */
+  /* line 689, style.less */
   .eshe-span {
     top: 400%;
     text-align: center;
   }
-  /* line 684, style.less */
+  /* line 693, style.less */
   .footer {
     padding-top: 55%;
     font-size: 12px;
     font-weight: 100;
   }
-  /* line 689, style.less */
+  /* line 698, style.less */
   .footer-span {
     float: left;
     text-align: left;
     line-height: 2.5rem;
     font-weight: 700;
   }
-  /* line 695, style.less */
+  /* line 704, style.less */
   .footer-phone {
     text-decoration: none;
     font-size: 12px;
   }
-  /* line 699, style.less */
+  /* line 708, style.less */
   .footer-p {
     text-align: center;
+  }
+  /* line 711, style.less */
+  .bazi-dannih-img {
+    position: relative;
+    top: -35px;
+    text-align: center;
+  }
+  /* line 716, style.less */
+  body {
+    padding: 0px 23px;
   }
 }

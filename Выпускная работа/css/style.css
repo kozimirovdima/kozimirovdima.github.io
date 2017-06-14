@@ -295,8 +295,7 @@ h1 {
 }
 /* line 272, style.less */
 .feedback-img {
-  height: auto;
-  width: auto;
+  height: 60px;
   padding: 15px 0;
   margin: 15px 10px;
 }
@@ -315,12 +314,6 @@ h1 {
   color: #fe5c2e;
   margin: 55px 0px;
   margin-bottom: 75px;
-}
-.feedback-h4{
-  padding: 55px;
-  margin: 55px; 
-  color: #fe5c2e;
-  text-decoration: underline;
 }
 /* line 291, style.less */
 .active {
@@ -578,4 +571,228 @@ h1 {
   border-radius: 5px;
   margin: 2px;
   display: inline-block;
+}
+/* line 516, style.less */
+.burger-menu,
+.dropdown-menu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  /* line 523, style.less */
+  .burger-menu,
+  .dropdown-menu {
+    display: none ;
+  }
+  /* line 526, style.less */
+  .dropdown-menu {
+    border: 1px solid #fe5c2e;
+  }
+  /* line 529, style.less */
+  .dropdown-menu li {
+    border-bottom: 1px solid #fe5c2e;
+  }
+  /* line 532, style.less */
+  .header-soc {
+    text-align: left;
+    float: left;
+    font-size: 11px;
+    width: 100%;
+    height: 100%;
+    margin: 25px 25px;
+  }
+  /* line 540, style.less */
+  .phone {
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    float: right;
+    text-align: right;
+  }
+  /* line 547, style.less */
+  .header-top {
+    text-align: auto;
+  }
+  /* line 550, style.less */
+  .info {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 100%;
+    text-align: right;
+    float: right;
+  }
+  /* line 558, style.less */
+  .header-fon {
+    width: 100vw;
+    height: 100vh;
+  }
+  /* line 562, style.less */
+  .header-spisok {
+    display: none;
+  }
+  /* line 565, style.less */
+  .bazi-dannih {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  /* line 570, style.less */
+  .erc-crm {
+    width: 100%;
+    height: 100%;
+    margin-top: 145px;
+    text-align: left;
+  }
+  /* line 576, style.less */
+  .header-otstup {
+    height: 100%;
+    width: 100%;
+  }
+  /* line 581, style.less */
+  .header-opit1 {
+    margin-top: 385px;
+  }
+  /* line 584, style.less */
+  .header-opit1:hover {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+  }
+  /* line 590, style.less */
+  .header-otstup {
+    text-align: center;
+    font-size: 12px;
+  }
+  /* line 594, style.less */
+  .prodagi {
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: auto;
+  }
+  /* line 602, style.less */
+  .sistemi {
+    font-size: 12px;
+  }
+  /* line 604, style.less */
+  .sistemi-a {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    text-align: left;
+  }
+  /* line 611, style.less */
+  .s_kem_rabotaem-img {
+    width: 100vw;
+    height: 100%;
+  }
+  /* line 615, style.less */
+  .vigodi {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 618, style.less */
+  .vigodi-img-2 {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 623, style.less */
+  .feedback-block {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 628, style.less */
+  h1 {
+    font-size: 30px;
+  }
+  /* line 631, style.less */
+  .etapi {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  /* line 638, style.less */
+  .step {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 642, style.less */
+  .nam-doveryaut-img {
+    width: 100vw;
+  }
+  /* line 645, style.less */
+  .nam-doveryaut-fon {
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+  }
+  /* line 651, style.less */
+  .zakazat {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 655, style.less */
+  .header-fon {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  /* line 659, style.less */
+  .eshe-foto {
+    position: relative;
+    bottom: 20%;
+    background-size: contain;
+  }
+  /* line 665, style.less */
+  .eshe-h1 {
+    position: absolute;
+    top: 225%;
+    width: 100vw;
+    text-align: center;
+  }
+  /* line 671, style.less */
+  .eshe {
+    position: absolute;
+    top: 540%;
+  }
+  /* line 675, style.less */
+  .eshe-button,
+  .eshe-span {
+    position: absolute;
+    width: 100%;
+    top: 325%;
+  }
+  /* line 680, style.less */
+  .eshe-span {
+    top: 400%;
+    text-align: center;
+  }
+  /* line 684, style.less */
+  .footer {
+    padding-top: 55%;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  /* line 689, style.less */
+  .footer-span {
+    float: left;
+    text-align: left;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
+  /* line 695, style.less */
+  .footer-phone {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  /* line 699, style.less */
+  .footer-p {
+    text-align: center;
+  }
 }

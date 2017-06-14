@@ -21,15 +21,32 @@
     </head>
     <body>
      <div class="container">
-      <div class="row header-top text-center">
-       <div class="col-md-2 col-md-offset-5  col-xs-3 text-center">
-        <p>info@it-rules.ru</p>
+      <div class="row header-top">
+       <div class="col-md-2 col-md-offset-5">
+       <div class=" burger-menu">
+
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#resheniya" class="header-ssilka">Решения и результаты</a></li>
+            <li><a href="#s_kem_rabotaem" class="header-ssilka">С какими работаем</a></li>
+            <li><a href="#sistemi" class="header-ssilka">Системы</a></li>
+            <li><a href="#pochemu_mi" class="header-ssilka">Почему мы</a></li>
+            <li><a href="#nam_doveryaut" class="header-ssilka">Нам доверяют</a></li>
+            <li><a href="#chto_eshe" class="header-ssilka">Что еще</a></li>
+            
+          </ul>
+     </div class="info">
+        <p class="info">info@it-rules.ru</p>
       </div>
-      <div class="col-md-3 col-xs-3 ">
+      <div class="col-md-3  ">
         <span class="phone">
          +7 (495) 380-37-74 
        </span>
      </div>
+
+     
+
      <div class="col-md-2 col-xs-3  header-soc">
        <a href="">
          <i class="fa fa-vk" aria-hidden="true""></i>
@@ -62,7 +79,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row bazi-dannih">
     <div class="col-md-offset-1">
      <div class="col-md-7 header-otstup">
       <h1>Базы данных ERP CRM 1C</h1>
@@ -72,7 +89,7 @@
      <a href="#modal-1" id=""><button type="button" class="zakazat">Заказать</button></a><span class="zakazat-span">Закажите бесплатное техническое задание!</span>
    </div>
    <div class="col-md-3 header-otstup text-center">
-    <img src="img/header-foto.png" alt="">
+    <img src="img/header-foto.png"  class="img-responsive" alt="">
   </div>
 </div>
 </div>
@@ -96,7 +113,7 @@
 
 <!-- modal -->
  
-<div class="row">
+<div class="row erc-crm">
   <div class="col-md-offset-1 header-span-otstup">
    <div class="col-md-4">
     <span class="header-span-bold">ERC - </span><span>прибыль и ваше свободное время.</span><br>
@@ -114,7 +131,7 @@
 </div>
 <div class="row text-center">
  <div class="col-md-offset-2 header-otstup">
-  <div class="col-md-2 header-opit">
+  <div class="col-md-2 header-opit header-opit1">
    <picture>
     <source srcset="img/header-icon/1.svg" class="icon"> 
      <img src="img/header-icon/1.png" class="icon" alt="Описание" title="Описание"> 
@@ -236,7 +253,7 @@
 <div class="row">
  <h1 style="padding-top: 40px" class="text-center" id="s_kem_rabotaem">С какими системы мы работаем.</h1>
  <p class="text-center" style="font-size: 18px">Мы работаем со всеми лидерами Российского рынка программного обеспечения. Наши специалисты подберут<br>	 наилучшую систему для Вашего бизнеса. Так же мы готовы реализовать необходимое решение для Вашей <br>организации в выбранной вами системе.</p>
- <img src="img/sistemi/Лого.png" alt="" style="margin: 35px 0px">
+ <img src="img/sistemi/Лого.png" alt="" class="s_kem_rabotaem-img" style="margin: 35px 0px">
 
 </div>
 
@@ -328,7 +345,7 @@
     увеличивают как финансовые, так и временные затраты на обработку различных данных. Что несет в себе потерю<br> клиентов, прибыли и времени!</p>
 
     <div class="col-md-3 feedback-block">
-     <img src="img/feedback/16.png" class="feedback-img" alt="" ><br>
+     <img src="img/feedback/16.png" class="feedback-img" alt=""><br>
      <p>Собственный успешный
       опыт развития компании с количеством сотрудников более 1000 человек</p>
     </div>
@@ -366,10 +383,8 @@
            <img src="img/feedback/23.png" class="feedback-img" alt=""><br>
            <p>Мы знаем, что вам потребуется внедрять в будущем!  Подойдем к вопросу с позиции экономии вашего времени, усилий и финансовых затрат!</p>
          </div>
-
-         
+         <h4>Мы предложим Вам одни из самых выгодных условий как по срокам, так и по стоимости!</h4>
        </div> <!-- row -->
-       <h4 class="feedback-h4 text-center">Мы предложим Вам одни из самых выгодных условий как по срокам, так и по стоимости!</h4>
 
 
 
@@ -521,7 +536,7 @@
               <h1 class="nam-doveryaut-h1 text-center">Нам доверяют</h1><br>
               <img src="img/doveryaut/1.png" alt="" class="nam-doveryaut-img">
               <div class="col-md-7 col-md-offset-1" style="padding-bottom: 75px;">
-                <h1>Еще мы можем предложить</h1>
+                <h1 class="eshe-h1">Еще мы можем предложить</h1>
                 <div class="row eshe">
                   <div class="col-md-6">
                     <p>Поддержка 24\7</p>
@@ -536,13 +551,13 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-5 ">
+                  <div class="col-md-5 eshe-button">
                      <a href="#modal-1" id=""><button type="button" class="zakazat">Заказать</button></a>
                   </div>
-                  <div class="col-md-7 zakazat-text1"><span class="zakazat-span">Закажите бесплатное техническое задание!</span></div>
+                  <div class="col-md-7 zakazat-text1 eshe-span"><span class="zakazat-span ">Закажите бесплатное техническое задание!</span></div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 eshe-foto">
                 <img src="img/predlogenie/foto.png" alt="">
               </div>
             
@@ -552,23 +567,25 @@
       
 
 </div> <!-- container -->
-
-<div class="container">
-  <footer class="footer text-center">
-    <div class="col-md-6">
-     <span class="footer-span">ООО «ВИДЕО ПРАВИЛА» Можайское ш 112А , работаем с учетом НДС 18% </span>
-   </div>
-
-   <div class="col-md-2 col-md-offset-1 text-center">
-     <p class="footer-p">info@it-rules.ru</p>
-   </div>
-   <div class="col-md-3">
-     <span class="footer-phone">
-      +7 (495) 380-37-74 
-    </span>
-  </div>
-  <footer>
-  </div>
+<section>
+  
+  <div class="container">
+    <footer class="footer text-center">
+      <div class="col-md-6 col-xs-12">
+       <span class="footer-span">ООО «ВИДЕО ПРАВИЛА» Можайское ш 112А , работаем с учетом НДС 18% </span>
+     </div>
+  
+     <div class="col-md-2 col-xs-12 col-md-offset-1 text-center">
+       <p class="footer-p">info@it-rules.ru</p>
+     </div>
+     <div class="col-md-3 col-xs-12">
+       <span class="footer-phone">
+        +7 (495) 380-37-74 
+      </span>
+    </div>
+    <footer>
+    </div>
+</section>
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -811,6 +811,12 @@ h1 {
     text-align: center;
   }
   /* line 716, style.less */
+  footer {
+    padding-top: 55%;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  /* line 721, style.less */
   body {
     padding: 0px 23px;
   }

@@ -1,0 +1,802 @@
+@font-face {
+  font-family: Museo;
+  src: url(../fonts/MuseoSansRegular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 11, style.less */
+* {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 15, style.less */
+body {
+  background-image: url(../img/fon1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: 'Museo';
+}
+/* line 22, style.less */
+.phone {
+  font-weight: 900;
+  font-size: 17px;
+}
+/* line 26, style.less */
+i {
+  padding-right: 5px;
+}
+/* line 28, style.less */
+i:hover {
+  color: red;
+}
+/* line 32, style.less */
+.header-soc > a {
+  color: grey;
+}
+/* line 36, style.less */
+.header-ssilka {
+  text-decoration: none;
+  color: grey;
+}
+/* line 40, style.less */
+.header-ssilka:hover {
+  color: grey;
+  text-decoration: none;
+}
+/* line 45, style.less */
+.header-spisok {
+  margin-top: 20px;
+}
+/* line 48, style.less */
+.header-soc {
+  text-align: right;
+  padding-right: 5px;
+}
+/* line 52, style.less */
+.header-top {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 56, style.less */
+.header-fon {
+  background: url(../img/fon2.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  width: 1242px;
+  height: 590px;
+}
+/* line 64, style.less */
+.header-spisok1 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 300;
+  color: grey;
+  padding-top: 45px;
+}
+/* line 71, style.less */
+.header-spisok1:hover {
+  color: black;
+  border-bottom: 2px solid #fe5c2e;
+  padding-bottom: 10px;
+}
+/* line 77, style.less */
+.header-p {
+  font-weight: 100;
+  font-size: 17px;
+}
+/* line 81, style.less */
+.header-otstup {
+  margin-top: 95px;
+}
+/* line 84, style.less */
+.header-span-bold {
+  font-weight: 700;
+}
+/* line 87, style.less */
+.header-span-otstup {
+  margin-top: 30px;
+}
+/* line 90, style.less */
+.header-opit {
+  padding-top: 30px;
+}
+/* line 92, style.less */
+.header-opit:hover {
+  background-image: url(../img/header-icon/hover.png);
+  background-size: cover;
+}
+/* line 98, style.less */
+.fa-search {
+  padding-left: 180px;
+}
+/* line 101, style.less */
+h1 {
+  margin-top: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+/* line 106, style.less */
+.zakazat {
+  background-color: #fe5c2e;
+  border-radius: 10px;
+  height: 60px;
+  line-height: 60px;
+  width: 270px;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+/* line 116, style.less */
+.zakazat-span {
+  color: #fe5c2e;
+  padding-left: 5%;
+}
+/* line 121, style.less */
+.icon {
+  height: 30px;
+  width: 35px;
+}
+/* line 124, style.less */
+.icon-span-otstup {
+  padding: 25px 25px;
+}
+/* line 128, style.less */
+.besplatno {
+  color: #fe5c2e;
+  text-decoration: underline;
+  font-size: 22px;
+}
+/* line 134, style.less */
+.resheniya-p {
+  font-weight: 100;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+/* line 142, style.less */
+.prodagi > span {
+  display: inline-block;
+  padding: 10px 0px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 14pt;
+}
+/* line 150, style.less */
+.prodagi > img {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+/* line 154, style.less */
+.prodagi {
+  width: 370px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  background-size: auto;
+}
+/* line 160, style.less */
+.prodagi-span {
+  font-weight: 700;
+  font-size: 18pt;
+  margin-top: 20px;
+}
+/* line 168, style.less */
+.prodagi-razvernut {
+  color: #fe5c2e;
+  font-weight: 100;
+}
+/* line 173, style.less */
+.btn {
+  padding: 16px;
+  text-decoration: none;
+}
+/* line 177, style.less */
+.btn:hover {
+  color: white;
+  background-color: #fe5c2e;
+  cursor: pointer;
+}
+/* line 182, style.less */
+.btn.active {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/* line 188, style.less */
+.hidden {
+  display: none;
+}
+/* line 191, style.less */
+.erp-p {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 30px;
+}
+/* line 195, style.less */
+.erp-p1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 200, style.less */
+.sistemi {
+  padding: 20px;
+}
+/* line 202, style.less */
+.sistemi-span {
+  padding-left: 35px;
+  vertical-align: middle;
+  height: 22px;
+}
+/* line 209, style.less */
+.sistemi-a {
+  vertical-align: middle;
+  background-image: url(../img/sistemi/icon.png);
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  height: 22px;
+  color: black;
+  display: inline-block;
+}
+/* line 217, style.less */
+.sistemi-a:hover {
+  color: black;
+  text-decoration: none;
+  background-image: url(../img/sistemi/iconactive.png);
+}
+/* line 227, style.less */
+.vigodi > h4 {
+  font-weight: 700;
+  margin: 25px 0;
+}
+/* line 232, style.less */
+.vigodi-a {
+  background-image: url(../img/vigodi/fon1.png);
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 1px;
+  padding-left: 6px;
+  line-height: 18px;
+}
+/* line 240, style.less */
+.vigodi-a:hover {
+  background-image: url(../img/vigodi/fon.png);
+  text-decoration: none;
+  color: white;
+}
+/* line 246, style.less */
+.vigodi-span {
+  font-weight: 400;
+  padding: 10px;
+  line-height: 18px;
+  color: black;
+}
+/* line 253, style.less */
+.vigodi-img {
+  display: block;
+  float: left;
+  padding: 24px;
+}
+/* line 257, style.less */
+.vigodi-img-2 {
+  margin: 25px 0;
+  text-align: left;
+}
+/* line 262, style.less */
+.vigodi-block {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* line 267, style.less */
+.feedback > p {
+  font-size: 18px;
+  font-weight: 100;
+}
+/* line 272, style.less */
+.feedback-img {
+  height: 60px;
+  padding: 15px 0;
+  margin: 15px 10px;
+}
+/* line 277, style.less */
+.feedback-block {
+  height: 200px;
+  margin-top: 25px;
+}
+/* line 280, style.less */
+.feedback-block:hover {
+  background-color: #fff;
+}
+/* line 285, style.less */
+.feedback > h4 {
+  text-decoration: underline;
+  color: #fe5c2e;
+  margin: 55px 0px;
+  margin-bottom: 75px;
+}
+/* line 291, style.less */
+.active {
+  border: none;
+}
+/* line 295, style.less */
+.etapi-1:hover {
+  background-color: #fff;
+  height: 250px;
+}
+/* line 299, style.less */
+.etapi-2:hover {
+  background-color: #fff;
+  height: 250px;
+}
+/* line 303, style.less */
+.etapi-3:hover {
+  background-color: #fff;
+  height: 250px;
+}
+/* line 307, style.less */
+.etapi-4:hover {
+  background-color: #fff;
+  height: 250px;
+}
+/* line 311, style.less */
+.etapi-5:hover {
+  background-color: #fff;
+  height: 250px;
+}
+/* line 315, style.less */
+.etapi-1 {
+  height: 250px;
+}
+/* line 319, style.less */
+.etapi-h4 {
+  font-weight: 600;
+}
+/* line 323, style.less */
+.etapi li {
+  border: none;
+}
+/* line 326, style.less */
+.etapi-a {
+  border: none;
+  color: black;
+}
+/* line 329, style.less */
+.etapi-a:hover {
+  border: none;
+}
+/* line 332, style.less */
+.etapi-a:active {
+  border: none;
+}
+/* line 337, style.less */
+.tab-pane active {
+  background-color: #fff;
+}
+/* line 340, style.less */
+.step {
+  display: inline-block;
+  margin: 0;
+  padding: 22px;
+  background-color: #fff;
+  height: 150px;
+  width: 25%;
+}
+/* line 347, style.less */
+.step span {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 352, style.less */
+.step-p {
+  padding-top: 15px;
+}
+/* line 357, style.less */
+.nav-tabs {
+  text-align: center;
+  margin: 0px;
+}
+/* line 361, style.less */
+.etapi li {
+  text-align: center;
+}
+/* line 364, style.less */
+.etapi-step > h4 {
+  font-size: 18px;
+  color: grey;
+  font-weight: 700;
+}
+/* line 369, style.less */
+.etapi-step > span {
+  color: grey;
+}
+/* line 372, style.less */
+#chto_eshe {
+  font-size: 35pt;
+}
+/* line 376, style.less */
+.footer {
+  padding: 0px 0px;
+  line-height: 50px;
+}
+/* line 379, style.less */
+.footer-span {
+  font-size: 14px;
+  font-weight: 100;
+  color: grey;
+}
+/* line 384, style.less */
+.footer-p {
+  font-size: 16px;
+  font-weight: 100;
+  color: grey;
+}
+/* line 389, style.less */
+.footer-phone {
+  color: black;
+  font-weight: 900;
+  font-size: 17px;
+}
+/* line 395, style.less */
+.tab {
+  margin-right: 0px;
+  margin: 0 auto;
+}
+/* line 398, style.less */
+.tab-a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+/* line 403, style.less */
+.tab-a:hover {
+  color: white;
+  background-color: #fe5c2e;
+}
+/* line 408, style.less */
+.tab-li {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0px;
+}
+/* line 415, style.less */
+.nav li a {
+  padding: 0px;
+}
+/* line 418, style.less */
+.btn-default {
+  margin-right: 0;
+}
+/* line 421, style.less */
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  margin-left: 0%;
+  padding-left: 15%;
+}
+/* line 426, style.less */
+.nav-tabs > li > a {
+  margin-right: 0px;
+}
+/* line 430, style.less */
+.btn-default:active {
+  background-color: black;
+  color: white;
+}
+/* line 435, style.less */
+.nam-doveryaut-fon {
+  background-image: url(../img/predlogenie/fon.png);
+  background-size: cover;
+  width: 100%;
+}
+/* line 442, style.less */
+.nam-doveryaut-h1 {
+  margin-top: 95px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+/* line 447, style.less */
+.nam-doveryaut-img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+/* line 453, style.less */
+.zakazat-text1 {
+  color: #fe5c2e;
+  margin-top: 35px;
+  padding-left: 20px;
+}
+/* line 458, style.less */
+.eshe p {
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration: underline;
+  color: black;
+}
+/* line 464, style.less */
+.btn-primary {
+  background-color: #fe5c2e;
+  border-radius: 10px;
+  height: 60px;
+  width: 270px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+/* line 475, style.less */
+.popup {
+  width: 333px;
+  height: 444px;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-170%);
+          transform: translateX(-50%) translateY(-170%);
+  top: 25%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 1;
+  z-index: 999;
+}
+/* line 486, style.less */
+.popup:target {
+  -webkit-transform: translateX(-50%) translateY(0%);
+          transform: translateX(-50%) translateY(0%);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 12px;
+}
+/* line 492, style.less */
+.popup-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+/* line 501, style.less */
+.popup h4 {
+  margin-top: 40px;
+  margin-bottom: 23px;
+  font-weight: 700;
+}
+/* line 506, style.less */
+.popup input {
+  padding: 15px;
+  border: 2px solid #fe5c2e;
+  border-radius: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+/* line 516, style.less */
+.burger-menu,
+.dropdown-menu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  /* line 523, style.less */
+  .burger-menu,
+  .dropdown-menu {
+    display: none ;
+  }
+  /* line 526, style.less */
+  .dropdown-menu {
+    border: 1px solid #fe5c2e;
+  }
+  /* line 529, style.less */
+  .dropdown-menu li {
+    border-bottom: 1px solid #fe5c2e;
+  }
+  /* line 532, style.less */
+  .header-soc {
+    text-align: left;
+    float: left;
+    font-size: 11px;
+    width: 100%;
+    height: 100%;
+    margin: 25px 25px;
+  }
+  /* line 540, style.less */
+  .phone {
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    float: right;
+    text-align: right;
+  }
+  /* line 547, style.less */
+  .header-top {
+    text-align: auto;
+  }
+  /* line 550, style.less */
+  .info {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 100%;
+    text-align: right;
+    float: right;
+  }
+  /* line 558, style.less */
+  .header-fon {
+    width: 100vw;
+    height: 100vh;
+  }
+  /* line 562, style.less */
+  .header-spisok {
+    display: none;
+  }
+  /* line 565, style.less */
+  .bazi-dannih {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  /* line 570, style.less */
+  .erc-crm {
+    width: 100%;
+    height: 100%;
+    margin-top: 145px;
+    text-align: left;
+  }
+  /* line 576, style.less */
+  .header-otstup {
+    height: 100%;
+    width: 100%;
+  }
+  /* line 581, style.less */
+  .header-opit1 {
+    margin-top: 385px;
+  }
+  /* line 585, style.less */
+  .header-opit1:hover {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+  }
+  /* line 591, style.less */
+  .header-opit {
+    padding: 55px;
+  }
+  /* line 594, style.less */
+  .header-otstup {
+    text-align: center;
+    font-size: 12px;
+  }
+  /* line 598, style.less */
+  .prodagi {
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: auto;
+  }
+  /* line 606, style.less */
+  .sistemi {
+    font-size: 12px;
+  }
+  /* line 608, style.less */
+  .sistemi-a {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    text-align: left;
+  }
+  /* line 615, style.less */
+  .s_kem_rabotaem-img {
+    width: 100vw;
+    height: 100%;
+  }
+  /* line 619, style.less */
+  .vigodi {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* line 622, style.less */
+  .vigodi-img-2 {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 627, style.less */
+  .feedback-block {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 632, style.less */
+  h1 {
+    font-size: 30px;
+  }
+  /* line 635, style.less */
+  .etapi {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  /* line 642, style.less */
+  .step {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 646, style.less */
+  .nam-doveryaut-img {
+    width: 100vw;
+  }
+  /* line 649, style.less */
+  .nam-doveryaut-fon {
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+  }
+  /* line 655, style.less */
+  .zakazat {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 659, style.less */
+  .header-fon {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  /* line 663, style.less */
+  .eshe-foto {
+    position: relative;
+    bottom: 20%;
+    background-size: contain;
+  }
+  /* line 669, style.less */
+  .eshe-h1 {
+    position: absolute;
+    top: 225%;
+    width: 100vw;
+    text-align: center;
+  }
+  /* line 675, style.less */
+  .eshe {
+    position: absolute;
+    top: 540%;
+  }
+  /* line 679, style.less */
+  .eshe-button,
+  .eshe-span {
+    position: absolute;
+    width: 100%;
+    top: 325%;
+  }
+  /* line 684, style.less */
+  .eshe-span {
+    top: 400%;
+    text-align: center;
+  }
+  /* line 688, style.less */
+  .footer {
+    padding-top: 55%;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  /* line 693, style.less */
+  .footer-span {
+    float: left;
+    text-align: left;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
+  /* line 699, style.less */
+  .footer-phone {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  /* line 703, style.less */
+  .footer-p {
+    text-align: center;
+  }
+}

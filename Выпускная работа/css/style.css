@@ -807,17 +807,22 @@ h1 {
   /* line 711, style.less */
   .bazi-dannih-img {
     position: relative;
-    top: -58px;
+    top: -68px;
+    margin-left: 30px;
     text-align: center;
   }
-  /* line 716, style.less */
-  footer {
-    padding-top: 55%;
+  /* line 717, style.less */
+  .footer {
+    padding-top: 555px;
     font-size: 12px;
     font-weight: 100;
   }
-  /* line 721, style.less */
+  /* line 722, style.less */
   body {
     padding: 0px 23px;
+  }
+  /* line 725, style.less */
+  .mobile-header {
+    margin-top: 55px;
   }
 }

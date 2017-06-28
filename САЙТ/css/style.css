@@ -150,3 +150,112 @@ header {
   color: #6699cc;
   padding-left: 5%;
 }
+.proizv-h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 40px;
+}
+.proizv-border {
+  border-bottom: 3px solid #6699cc;
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  content: '';
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+.proizv-span {
+  font-size: 30px;
+  color: #6699cc;
+}
+.proizv-p {
+  font-size: 20px;
+}
+.proizv-block {
+  margin-bottom: 50px;
+}
+.proizv-block:hover {
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  background-size: cover;
+}
+#proizvodstvennoe {
+  background-color: #f8f8f8;
+  height: 50vh;
+}
+#sobst_proizv {
+  background-image: url(../img/sobs_proizv/fon.png);
+  background-size: cover;
+  height: 80vh;
+}
+.sobst_proizv-h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 5%;
+  text-align: center;
+}
+.sobst_proizv-block {
+  background-image: url(../img/sobs_proizv/block-fon.png);
+  background-size: cover;
+  margin: 5px;
+}
+.sobst_proizv-h3 {
+  text-transform: uppercase;
+  margin: 50px;
+  font-weight: 900;
+}
+#postavka {
+  background-color: #f8f8f8;
+}
+.postavka-h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+}
+.postavka-p {
+  font-size: 20px;
+  padding: 10px;
+}
+.postavka-block {
+  margin-right: 15px;
+}
+.postavka-block:hover {
+  background-color: #fff;
+}
+.trubi-h2 {
+  color: #6699cc;
+  padding-top: 25px;
+}
+.trubi-p {
+  font-size: 20px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+.trubi-h3 {
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 25px;
+}
+.trubi-li {
+  font-size: 16px;
+}
+.trubi-img {
+  width: 100%;
+}
+.trubi-block {
+  height: 390px;
+  background-color: #f8f8f8;
+}
+.trubi-button {
+  width: 270px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: #6699cc;
+  border-radius: 5px;
+}

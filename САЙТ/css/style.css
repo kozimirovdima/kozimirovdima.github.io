@@ -304,3 +304,52 @@ header {
 .pochemu-img {
   padding: 25px;
 }
+footer {
+  background-color: #333333;
+}
+.footer-span {
+  color: #7d7d7d;
+}
+.footer-p {
+  padding-left: 25px;
+  color: white;
+}
+.footer-a {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+.footer-div {
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+.footer_form-h3 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.footer_form-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+.footer_form-textarea {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  height: 120px;
+}
+.footer_form-button {
+  background-color: #6699cc;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 25px;
+  border-radius: 5px;
+}

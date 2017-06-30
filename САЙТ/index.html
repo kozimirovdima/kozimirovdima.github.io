@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Bootstrap 101 Template</title>
+	<title>Трубы</title>
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,13 +29,22 @@
   						<a href="#" class="header-top-logo"><img src="img/header-top/logo.png" alt=""></a>
   					</div>
   					<div class="col-md-offset-1 col-md-5 text-center">
-  						<ul class="header-top-ul">
-  							<a href="#glavnaya"><li class="header-top-li">Главная</li></a>
-  							<a href="#pochemu"><li class="header-top-li">О нас</li></a>
-  							<a href="#trubi"><li class="header-top-li">Виды труб</li></a>
-  							<a href="#v_nalichii"><li class="header-top-li">Преимущества</li></a>
-  							<a href="#footer"><li class="header-top-li">Контакты</li></a>
-  						</ul>
+
+<nav class="menu">
+	
+	  						<ul class="header-top-ul active">
+	  							<a href="#glavnaya"><li class="header-top-li">Главная</li></a>
+	  							<a href="#pochemu"><li class="header-top-li">О нас</li></a>
+	  							<a href="#trubi"><li class="header-top-li">Виды труб</li></a>
+	  							<a href="#v_nalichii"><li class="header-top-li">Преимущества</li></a>
+	  							<a href="#footer"><li class="header-top-li">Контакты</li></a>
+	  						</ul>
+
+	  						<a class="toggle-nav" href="#">&#9776;</a>
+
+
+</nav>
+
   					</div>
   					<div class="col-md-2 text-center">
   						<a href="#" class="header-top-a"><i class="fa fa-phone"></i><span class="header-top-phone">(343) 344-85-85</span></a>
@@ -424,6 +433,16 @@
   										}
   									}
   								});
+  							</script>
+  							<script>
+  								jQuery(document).ready(function() {
+    jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('.menu ul').toggleClass('active');
+ 
+        e.preventDefault();
+    });
+});
   							</script>
   						</body>
   						</html>

@@ -13,7 +13,7 @@ body{
 .header-top-li{
 	font-size: 20px;
 	font-family: 'CompPro';
-	padding-right: 10px;
+	padding-right: 5px;
 	font-weight: 700;
 	display: inline-block;
 	text-transform: uppercase;
@@ -26,6 +26,7 @@ body{
 .header-top-ul a {
 	text-decoration: none;
 	color: black;
+
 	&:hover{
 		border-bottom: 3px solid blue;
 		padding-bottom: 15px;
@@ -51,7 +52,8 @@ body{
 }
 .header-top{
 	height: 105px;
-	line-height: 105px;
+	line-height: 0;
+	padding-top: 18px;
 }
 header{
 	background-image: url(../img/header/fon.png);
@@ -96,6 +98,7 @@ header{
 		border: none;
 		text-align: center;
 		margin-top: 75px;
+		margin-bottom: 5%;
 	}
 }
 
@@ -182,9 +185,10 @@ header{
 	}
 	&-block{
 		margin-bottom: 50px;
+		width: 25%;
+
 		&:hover{
-			width: 280px;
-			height: 200px;
+			width: 25%;
 			background-color: white;
 			background-size: cover;
 		}
@@ -375,4 +379,108 @@ footer{
 			border-radius: 5px;
 		}
 	}
+}
+@media screen and (max-width: 720px) {
+	.header-top{
+		font-size: 12px;
+		height: 100%;
+		&-logo{
+			margin-left: 25%;
+		}
+	}
+	.header-top-li{
+		display: block;
+	}
+	header{
+		width: 100%;
+		height: 100%;
+	}
+	.trubi-block{
+		width: 100%;
+	}
+	.v_nalichii-block{
+		width: 100%;
+		height: 100%;
+	}
+	.pochemu-block{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+.toggle-nav {
+    display:none;
+}
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#fff;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #fff;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+        display:block;
+    }
+ 
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#fff;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+ 
+    .search-form {
+        margin:12px 0px 0px 20px;
+        float:left;
+    }
+ 
+    .search-form input {
+        box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
+    }
+    .header-top-li{
+    	width: 100%;
+    	height: 100%;
+    }
 }

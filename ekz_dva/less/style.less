@@ -26,11 +26,13 @@ body{
 .header-top-ul a {
 	text-decoration: none;
 	color: black;
-
 	&:hover{
 		border-bottom: 3px solid blue;
 		padding-bottom: 15px;
 	}
+}
+.header-top-ul{
+	margin-top: 7px;
 }
 .header-top-phone,.header-top-mail{
 	font-size: 18px;
@@ -386,11 +388,15 @@ footer{
 		font-size: 12px;
 		height: 100%;
 		&-logo{
-			margin-left: 25%;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 999;
 		}
 	}
 	.header-top-li{
-		display: block;
+		display: inline-block;
+		padding: 5%;
 	}
 	header{
 		width: 100%;
@@ -429,18 +435,21 @@ footer{
     .menu {
         position:relative;
         display:inline-block;
+        padding: 5%;
+        text-align: center;
     }
  
-    .menu ul.active {
+    .menu .active {
         display:none;
     }
  
     .menu ul {
         width:100%;
         padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
+        box-shadow:0px 0px 0px rgba(0,0,0,0.15);
+        border-radius:0px;
         background:#fff;
+        display: inline-block;
     }
  
     .menu ul:after {
@@ -470,10 +479,10 @@ footer{
         padding:20px;
         float:left;
         display:inline-block;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        box-shadow:0px 0px 0px rgba(0,0,0,0.15);
         border-radius:3px;
         background:#fff;
-        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        text-shadow:0px 0px 0px rgba(0,0,0,0.5);
         color:#777;
         font-size:20px;
         transition:color linear 0.15s;

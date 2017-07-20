@@ -431,39 +431,7 @@
 }
 });
 </script>
-<script>
-  jQuery(document).ready(function() {
-    jQuery('.toggle-nav').click(function(e) {
-      jQuery(this).toggleClass('active');
-      jQuery('.menu ul').toggleClass('active');
 
-      e.preventDefault();
-    });
-  });
-</script>
-
-<script>
-  $(function(){
-       // высота "шапки", px
-       var h_hght = $('.firstScreen').outerHeight();
-       // высота блока с меню, px
-       var h_nav = $('#menu').outerHeight();
-       var top;
-       $(window).scroll(function(){
-           // отступ сверху
-           top = $(this).scrollTop();
-           if((h_hght-top) <= h_nav){
-               $('#menu').css('top','0');
-           }
-           else if(top < h_hght && top > 0){
-               $('#menu').css({'bottom' : top, 'top':''});
-           }
-           else if(top < h_nav){
-               $('#menu').css({'top':'','bottom':'0'});
-           }
-       });
-   });     
-</script>
 
 </body>
 </html>
